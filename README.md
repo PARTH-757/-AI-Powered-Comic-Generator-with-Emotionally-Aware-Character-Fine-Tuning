@@ -6,7 +6,7 @@ Comics are a powerful medium to visually narrate stories. This project presents 
 ---
 
 ## Abstract  
-This project introduces a complete pipeline for converting narrative Hindi texts into emotionally expressive comic panels. Using advanced NLP techniques, the system identifies characters, scenes, dialogues, and associated emotions. A key innovation lies in the **LoRA (Low-Rank Adaptation) fine-tuning** of a Stable Diffusion model — where each character is trained with six emotional variants (`happy`, `sad`, `angry`, `fear`, `neutral`, `smile`) to maintain **character and emotion consistency** across generated panels. The system also ensures **location consistency**, preserving each character's spatial position (e.g., sitting on the left, standing in the center) across all related scenes. This approach offers a robust foundation for AI-driven storytelling, with potential applications in education, entertainment, and content localization.
+This project introduces a complete pipeline for converting narrative Hindi texts into emotionally expressive comic panels. Using advanced NLP techniques, the system identifies characters, scenes, dialogues, and associated emotions. A key innovation lies in the **LoRA (Low-Rank Adaptation) fine-tuning** of a Stable Diffusion model — where each character is trained with five emotional variants (happy, sad, afraid, angry, neutral) to maintain **character and emotion consistency** across generated panels. The system also ensures **location consistency**, preserving each character's spatial position (e.g., ram is in forest) across all related scenes. This approach offers a robust foundation for AI-driven storytelling, with potential applications in education, entertainment, and content localization.
 
 ---
 
